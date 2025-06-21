@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+
+}
+
+nav{
+    background-color: #333;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    height: 70px;
+   
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 2px;
+    position: relative;
+}
+
+nav pre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+nav h1{
+    margin-right: 8px;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+#hero img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(203, 169, 1);
+    padding: 2px;
+    border-radius: 50%;
+}
+#hero{
+    background-color:#0057b7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#btn{
+ height: 35px;
+ width: 100px;
+ border-radius: 5px;
+}
+
+#btn a{
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+}
+#hero pre{
+    margin-right: 220px;
+}
+
+#hero img{
+    margin-left: 50px;
+}
+
+#abt-me {
+    margin: 45px;
+    color: #333;
+}
+#edu{
+    margin: 45px;
+    color: #333;
+}
+
+#skills{
+    margin: 45px;
+    color: #333;
+}
+
+#projects{
+    margin: 45px;
+    color: #333;
+}
+
+footer{
+    margin-bottom: 5px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    padding: 10px;
+}
+
